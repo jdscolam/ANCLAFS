@@ -1,0 +1,338 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Anclafs by jpsingleton</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Anclafs</h1>
+        <p class="header">ASP.NET Core Library and Framework Support</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/jpsingleton/ANCLAFS/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/jpsingleton/ANCLAFS/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/jpsingleton/ANCLAFS">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/jpsingleton">jpsingleton</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a id="anclafs" class="anchor" href="#anclafs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ANCLAFS</h1>
+
+<h2>
+<a id="aspnet-core-library-and-framework-support" class="anchor" href="#aspnet-core-library-and-framework-support" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ASP.NET Core Library and Framework Support</h2>
+
+<p>In the process of writing a <a href="https://www.packtpub.com/application-development/aspnet-core-10-high-performance">book</a> on ASP.NET Core and .NET Core I've done lots of research into what .NET libraries and frameworks are currently supported by these new platforms. Here are the results, hopefully you'll find this useful. Obviously these will change over time, send me a pull request if you'd like to make a correction or add something. This is a living document.</p>
+
+<h1>
+<a id="categories" class="anchor" href="#categories" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Categories</h1>
+
+<h2>
+<a id="experimenting" class="anchor" href="#experimenting" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Experimenting</h2>
+
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>NuGet Install Command</th>
+<th>.NET Core Support</th>
+<th>ASP.NET Core Support</th>
+<th>Website</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/Haacked/Scientist.net">Scientist.NET</a></td>
+<td>Install-Package Scientist -Pre</td>
+<td><a href="https://github.com/Haacked/Scientist.net/issues/54">Hypothetically</a></td>
+<td><a href="https://github.com/Haacked/Scientist.net/pull/37">Hypothetically</a></td>
+<td><a href="http://haacked.com/archive/2016/01/20/scientist">Blog</a></td>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="feature-switching" class="anchor" href="#feature-switching" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Feature Switching</h2>
+
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>NuGet Install Command</th>
+<th>.NET Core Support</th>
+<th>ASP.NET Core Support</th>
+<th>Website</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/mexx/FeatureSwitcher">FeatureSwitcher</a></td>
+<td>Install-Package FeatureSwitcher</td>
+<td>No</td>
+<td>No</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/jason-roberts/FeatureToggle">FeatureToggle</a></td>
+<td>Install-Package FeatureToggle</td>
+<td><a href="https://github.com/jason-roberts/FeatureToggle/issues/109">Planned</a></td>
+<td><a href="https://github.com/jason-roberts/FeatureToggle/issues/109">Planned</a></td>
+<td><a href="http://dontcodetired.com/blog/?tag=/featuretoggle">Blog</a></td>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="profiling" class="anchor" href="#profiling" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Profiling</h2>
+
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>NuGet Install Command</th>
+<th>.NET Core Support</th>
+<th>ASP.NET Core Support</th>
+<th>Website</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/MiniProfiler/dotnet">MiniProfiler</a></td>
+<td>Install-Package MiniProfiler</td>
+<td><a href="https://github.com/MiniProfiler/dotnet/issues/116">Planned for RC2</a></td>
+<td><a href="https://github.com/MiniProfiler/dotnet/issues/116">Planned for RC2</a></td>
+<td><a href="http://miniprofiler.com">miniprofiler.com</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Glimpse/Glimpse.Prototype">Glimpse</a></td>
+<td>Install-Package Glimpse -Pre</td>
+<td><a href="http://blog.getglimpse.com/2015/11/19/installing-glimpse-v2-beta1">Yes (beta)</a></td>
+<td><a href="http://blog.getglimpse.com/2015/11/19/installing-glimpse-v2-beta1">Yes (beta)</a></td>
+<td><a href="http://getglimpse.com">getglimpse.com</a></td>
+</tr>
+<tr>
+<td>Prefix</td>
+<td>N/A (download installer)</td>
+<td><a href="http://stackify.com/prefix-for-asp-net-core-rc1-is-available">Planned for RC2</a></td>
+<td><a href="http://stackify.com/prefix-for-asp-net-core-rc1-is-available">Yes</a></td>
+<td><a href="http://www.prefix.io">prefix.io</a></td>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="orms" class="anchor" href="#orms" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>O/RMs</h2>
+
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>NuGet Install Command</th>
+<th>.NET Core Support</th>
+<th>ASP.NET Core Support</th>
+<th>Website</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/StackExchange/dapper-dot-net">Dapper</a></td>
+<td>Install-Package Dapper -Pre</td>
+<td>Yes</td>
+<td>Yes</td>
+<td><a href="https://stackexchange.github.io/dapper-dot-net">github.io</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/markrendle/Simple.Data">Simple.Data</a></td>
+<td>Install-Package Simple.Data.SqlServer</td>
+<td><a href="https://blog.rendle.io/another-simple-data-update">Planned</a></td>
+<td><a href="https://blog.rendle.io/another-simple-data-update">Planned</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/aspnet/EntityFramework">EF Core</a></td>
+<td>Install-Package EntityFramework.MicrosoftSqlServer -Pre</td>
+<td>Yes</td>
+<td>Yes</td>
+<td><a href="http://docs.efproject.net/en/latest/">efproject.net</a></td>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="background-tasks" class="anchor" href="#background-tasks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Background Tasks</h2>
+
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>NuGet Install Command</th>
+<th>.NET Core Support</th>
+<th>ASP.NET Core Support</th>
+<th>Website</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/HangfireIO/Hangfire">Hangfire</a></td>
+<td>Install-Package Hangfire</td>
+<td><a href="https://github.com/HangfireIO/Hangfire/issues/365">Planned</a></td>
+<td><a href="https://discuss.hangfire.io/t/how-to-config-hangfire-with-asp-net-5/945">Possible</a></td>
+<td><a href="http://hangfire.io">hangfire.io</a></td>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="image-manipulation" class="anchor" href="#image-manipulation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Image Manipulation</h2>
+
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>NuGet Install Command</th>
+<th>.NET Core Support</th>
+<th>ASP.NET Core Support</th>
+<th>Website</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/imazen/resizer">ImageResizer</a></td>
+<td>Install-Package ImageResizer.WebConfig</td>
+<td>No</td>
+<td>No</td>
+<td><a href="http://imageresizing.net">imageresizing.net</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/tgjones/dynamic-image">DynamicImage</a></td>
+<td>Install-Package DynamicImage</td>
+<td>No</td>
+<td>No</td>
+<td><a href="https://dynamicimage.apphb.com/">dynamicimage.apphb.com</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/JimBobSquarePants/ImageProcessor/tree/Core">ImageProcessorCore</a></td>
+<td>Not yet (<a href="https://www.myget.org/gallery/imageprocessor">myget</a>)</td>
+<td>Yes (WIP)</td>
+<td>Yes (WIP)</td>
+<td><a href="http://imageprocessor.org">imageprocessor.org</a></td>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="message-queuing" class="anchor" href="#message-queuing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Message Queuing</h2>
+
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>NuGet Install Command</th>
+<th>.NET Core Support</th>
+<th>ASP.NET Core Support</th>
+<th>Website</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/tenor/RestBus">RestBus</a></td>
+<td>Install-Package RestBus.AspNet -Pre (<a href="https://github.com/tenor/RestBus/wiki/ASP.NET-Core-service-%28RabbitMQ-callable%29">guide</a>)</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>
+<a href="http://restbus.org">restbus.org</a> (<a href="http://ahuwanya.net/blog/post/Introducing-RestBus">Blog</a>)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/EasyNetQ/EasyNetQ">EasyNetQ</a></td>
+<td>Install-Package EasyNetQ</td>
+<td><a href="https://github.com/EasyNetQ/EasyNetQ/issues/508">Planned</a></td>
+<td><a href="https://github.com/EasyNetQ/EasyNetQ/issues/508">Planned</a></td>
+<td><a href="http://easynetq.com">easynetq.com</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/rabbitmq/rabbitmq-dotnet-client">RabbitMQ client</a></td>
+<td>Install-Package RabbitMQ.Client</td>
+<td><a href="https://github.com/rabbitmq/rabbitmq-dotnet-client/issues/148">Planned (new)</a></td>
+<td><a href="https://github.com/rabbitmq/rabbitmq-dotnet-client/issues/148">Planned (new)</a></td>
+<td><a href="https://www.rabbitmq.com/dotnet.html">rabbitmq.com</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/MassTransit/MassTransit">MassTransit</a></td>
+<td>Install-Package MassTransit.RabbitMQ</td>
+<td><a href="https://github.com/MassTransit/MassTransit/issues/527">Planned</a></td>
+<td><a href="https://github.com/MassTransit/MassTransit/issues/527">Planned</a></td>
+<td><a href="http://masstransit-project.com">masstransit-project.com</a></td>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="windows-services" class="anchor" href="#windows-services" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Windows Services</h2>
+
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>NuGet Install Command</th>
+<th>.NET Core Support</th>
+<th>ASP.NET Core Support</th>
+<th>Website</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/Topshelf/Topshelf">Topshelf</a></td>
+<td>Install-Package Topshelf</td>
+<td><a href="https://github.com/Topshelf/Topshelf/issues/277">In progress</a></td>
+<td><a href="https://github.com/Topshelf/Topshelf/issues/277">In progress</a></td>
+<td><a href="http://topshelf-project.com">topshelf-project.com</a></td>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="web" class="anchor" href="#web" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Web</h2>
+
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>NuGet Install Command</th>
+<th>.NET Core Support</th>
+<th>ASP.NET Core Support</th>
+<th>Website</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/NancyFx/Nancy/tree/coreclr">Nancy</a></td>
+<td>Install-Package Nancy -Pre</td>
+<td><a href="http://thecodejunkie.com/2016/02/22/working-full-time-on-getting-nancy-running-on-coreclr">In progress</a></td>
+<td><a href="http://thecodejunkie.com/2016/02/22/working-full-time-on-getting-nancy-running-on-coreclr">In progress</a></td>
+<td><a href="http://nancyfx.org">nancyfx.org</a></td>
+</tr>
+</tbody>
+</table>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
