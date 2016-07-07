@@ -213,8 +213,8 @@
 <tr>
 <td><a href="https://github.com/imazen/resizer">ImageResizer</a></td>
 <td>Install-Package ImageResizer.WebConfig</td>
-<td>No</td>
-<td>No</td>
+<td><a href="https://github.com/imazen/imageflow">libimageflow</a></td>
+<td><a href="https://github.com/imazen/imageflow">libimageflow</a></td>
 <td><a href="http://imageresizing.net">imageresizing.net</a></td>
 </tr>
 <tr>
@@ -329,7 +329,7 @@
 <td><a href="https://github.com/NancyFx/Nancy/tree/coreclr">Nancy</a></td>
 <td>Install-Package Nancy -Pre</td>
 <td><a href="http://thecodejunkie.com/2016/02/22/working-full-time-on-getting-nancy-running-on-coreclr">In progress</a></td>
-<td><a href="http://thecodejunkie.com/2016/02/22/working-full-time-on-getting-nancy-running-on-coreclr">In progress</a></td>
+<td><a href="https://github.com/NancyFx/Nancy/issues/1959">In progress</a></td>
 <td><a href="http://nancyfx.org">nancyfx.org</a></td>
 </tr>
 <tr>
@@ -382,13 +382,13 @@
 <td><a href="https://github.com/ninject/Ninject">Ninject</a></td>
 <td>{no .NET Core support}</td>
 <td><a href="https://github.com/ninject/Ninject/issues/177">No</a></td>
-<td><a href="https://github.com/ninject/Ninject/issues/177">No</a></td>
+<td><a href="https://github.com/ninject/Ninject/pull/200">No</a></td>
 <td><a href="http://www.ninject.org/">ninject.org</a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/autofac/Autofac">Autofac</a></td>
-<td>{no .NET Core support}</td>
-<td><a href="https://github.com/autofac/Autofac/issues/594">In progress</a></td>
+<td>Install-Package Autofac -Pre</td>
+<td><a href="https://github.com/autofac/Autofac/pull/672">Yes?</a></td>
 <td><a href="https://github.com/autofac/Autofac/issues/594">In progress</a></td>
 <td><a href="http://autofac.org/">autofac.org</a></td>
 </tr>
@@ -399,10 +399,182 @@
 <td>Yes</td>
 <td><a href="https://simpleinjector.org">simpleinjector.org</a></td>
 </tr>
+<tr>
+<td><a href="https://github.com/unitycontainer/unity">Unity</a></td>
+<td>Install-Package Unity-CoreClr -Pre</td>
+<td><a href="https://github.com/unitycontainer/unity/issues/42">?</a></td>
+<td><a href="https://github.com/unitycontainer/unity/issues/63">?</a></td>
+<td></td>
+</tr>
 </tbody>
 </table>
 
-<p>ASP.NET Core contains built-in <a href="https://docs.asp.net/en/latest/fundamentals/dependency-injection.html">DI</a> (and <a href="https://docs.asp.net/en/latest/fundamentals/logging.html">logging</a>)</p>
+<p>ASP.NET Core contains built-in <a href="https://docs.asp.net/en/latest/fundamentals/dependency-injection.html">DI</a></p>
+
+<h2>
+<a id="logging" class="anchor" href="#logging" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Logging</h2>
+
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>NuGet Install Command</th>
+<th>.NET Core Support</th>
+<th>ASP.NET Core Support</th>
+<th>Website</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/serilog/serilog">Serilog</a></td>
+<td></td>
+<td>?</td>
+<td>?</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/NLog/Nlog">NLog</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/net-commons/common-logging">common.logging</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/apache/log4net">log4net</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<p>ASP.NET Core contains built-in <a href="https://docs.asp.net/en/latest/fundamentals/logging.html">logging</a></p>
+
+<h2>
+<a id="serialization" class="anchor" href="#serialization" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Serialization</h2>
+
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>NuGet Install Command</th>
+<th>.NET Core Support</th>
+<th>ASP.NET Core Support</th>
+<th>Website</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/JamesNK/Newtonsoft.Json">JSON.NET</a></td>
+<td>Install-Package Newtonsoft.Json</td>
+<td>Yes</td>
+<td>Yes</td>
+<td><a href="http://www.newtonsoft.com/json">newtonsoft.com/json</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/kevin-montrose/Jil">Jil</a></td>
+<td></td>
+<td><a href="https://github.com/kevin-montrose/Jil/pull/185">?</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/rpgmaker/NetJSON">NetJSON</a></td>
+<td></td>
+<td><a href="https://github.com/rpgmaker/NetJSON/issues/105">?</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/ServiceStack/ServiceStack.Text">ServiceStack.Text</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Microsoft/bond">Bond</a></td>
+<td></td>
+<td><a href="https://github.com/Microsoft/bond/issues/166">?</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/mgravell/protobuf-net">protobuf-net</a></td>
+<td>Install-Package protobuf-net</td>
+<td><a href="https://github.com/mgravell/protobuf-net/issues/159">Not yet</a></td>
+<td><a href="https://github.com/mgravell/protobuf-net/issues/159">Not yet</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="testing" class="anchor" href="#testing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Testing</h2>
+
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>NuGet Install Command</th>
+<th>.NET Core Support</th>
+<th>ASP.NET Core Support</th>
+<th>Website</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/xunit/xunit">xUnit.net</a></td>
+<td></td>
+<td>?</td>
+<td>?</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/nunit/nunit">Nunit</a></td>
+<td></td>
+<td>?</td>
+<td>?</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/moq/moq4">Moq</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/FakeItEasy/FakeItEasy">FakeItEasy</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/SeleniumHQ/selenium">Selenium</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/techtalk/SpecFlow">SpecFlow</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 <h2>
 <a id="other" class="anchor" href="#other" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Other</h2>
@@ -440,13 +612,6 @@
 <td><a href="http://automapper.org/">automapper.org</a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/mgravell/protobuf-net">protobuf-net</a></td>
-<td>Install-Package protobuf-net</td>
-<td><a href="https://github.com/mgravell/protobuf-net/issues/159">Not yet</a></td>
-<td><a href="https://github.com/mgravell/protobuf-net/issues/159">Not yet</a></td>
-<td></td>
-</tr>
-<tr>
 <td><a href="https://github.com/ritterim/stuntman">Stuntman</a></td>
 <td>Install-Package RimDev.Stuntman</td>
 <td><a href="https://github.com/ritterim/stuntman/issues/62">Not yet</a></td>
@@ -466,6 +631,13 @@
 <td><a href="https://github.com/graphql-dotnet/graphql-dotnet/issues/43">Antlr  dep.</a></td>
 <td><a href="https://github.com/graphql-dotnet/graphql-dotnet/issues/43">Antlr  dep.</a></td>
 <td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/tunnelvisionlabs/antlr4cs">Antlr</a></td>
+<td>Install-Package Antlr4 -Pre</td>
+<td><a href="https://github.com/tunnelvisionlabs/antlr4cs/issues/144">?</a></td>
+<td><a href="https://github.com/antlr/antlrcs/issues/42">?</a></td>
+<td><a href="http://www.antlr.org">antlr.org</a></td>
 </tr>
 </tbody>
 </table>
